@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7Bfn4pZjO3OQyUkQPcYdTM+WfAG85xhK270pX2O+mHxN9ojVNW/KxWesNDaBRGqyJ+VOYHJ7Yo6TVtBwoPsR+Q==",
+  "dgSpecHash": "tDxJZxodzCp+ServbS2zRvZcfduusHbPFwjm4zPVN4EHu4OOcBbbnlxJdgKSsPOMJxMsZFwIG0YEpXlUY0nvNA==",
   "success": true,
   "projectFilePath": "F:\\DevProjects\\selenium\\SeleniumNet5\\SeleniumNet5.csproj",
   "expectedPackageFiles": [
@@ -20,6 +20,7 @@
     "C:\\Users\\araki\\.nuget\\packages\\nuget.frameworks\\5.0.0\\nuget.frameworks.5.0.0.nupkg.sha512",
     "C:\\Users\\araki\\.nuget\\packages\\nunit\\3.12.0\\nunit.3.12.0.nupkg.sha512",
     "C:\\Users\\araki\\.nuget\\packages\\nunit3testadapter\\3.16.1\\nunit3testadapter.3.16.1.nupkg.sha512",
+    "C:\\Users\\araki\\.nuget\\packages\\restsharp\\106.11.7\\restsharp.106.11.7.nupkg.sha512",
     "C:\\Users\\araki\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\araki\\.nuget\\packages\\selenium.support\\3.141.0\\selenium.support.3.141.0.nupkg.sha512",
     "C:\\Users\\araki\\.nuget\\packages\\selenium.webdriver\\3.141.0\\selenium.webdriver.3.141.0.nupkg.sha512",

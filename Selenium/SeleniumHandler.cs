@@ -50,7 +50,7 @@ namespace SeleniumNet5.Selenium
         {
             webDriver.Quit();
         }
-
+    
         public static void Init(string browser = "Chrome", string baseURL = "http://automationpractice.com/index.php")
         {
             switch (browser)
@@ -68,7 +68,7 @@ namespace SeleniumNet5.Selenium
                     }
             }
             webDriver.Manage().Window.Maximize();
-            logger = new Logger(browser);
+            logger = new Logger();
         }
 
         public static void Goto(string url)

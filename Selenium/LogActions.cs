@@ -6,7 +6,6 @@ namespace SeleniumNet5.Selenium
 {
     public class LogActions
     {
-        private string BrowserType;
         private string url;
         private DateTime date;
         private StringBuilder reportcsv;
@@ -14,9 +13,9 @@ namespace SeleniumNet5.Selenium
         private string filePath;
         private string fileName;
 
-        public LogActions(string BrowserType)
+        public LogActions()
         {       
-            CreateLog(BrowserType);
+            CreateLog();
         }
 
         internal void AddLog(string description, string result = null, string exception = null)
@@ -34,9 +33,8 @@ namespace SeleniumNet5.Selenium
             AddLog("StepDescription", "Pass/Fail", "Exception");
         }
 
-        public void CreateLog(string BrowserType)
+        public void CreateLog()
         {
-            this.BrowserType = BrowserType;
             date = DateTime.Now;
             fileName = FormatDateTime(date);
             reportcsv = new StringBuilder();           

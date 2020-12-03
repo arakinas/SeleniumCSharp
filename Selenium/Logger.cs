@@ -5,13 +5,11 @@ namespace SeleniumNet5.Selenium
     public class Logger
     {
         LogActions logAction;
-        string browser;
         string url;
         IWebDriver driver = SeleniumHandler.GetDriver;
-        public Logger(string browser)
+        public Logger()
         {
-            this.browser = browser;
-            logAction = new LogActions(browser);
+            logAction = new LogActions();
         }
 
         public void AddLog(string description, string result = null, string exception = null)

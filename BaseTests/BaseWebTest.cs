@@ -4,7 +4,7 @@ using SeleniumNet5.Selenium;
 namespace SeleniumNet5.BaseTests
 {
     [TestFixture]
-    public class BaseTest
+    public class BaseWebTest
     {
         [OneTimeSetUp]
         public void Setup()

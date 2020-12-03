@@ -3,10 +3,10 @@ using SeleniumNet5.Selenium;
 using SeleniumNet5.BaseTests;
 using SeleniumNet5.Selenium.Pages.AutomationPractice;
 
-namespace SeleniumNet5.Tests
+namespace SeleniumNet5.Tests.UI
 {
     [TestFixture]
-    public class ExampleTests : BaseTest
+    public class ExampleUITests : BaseWebTest
     {
 
         [Test]
